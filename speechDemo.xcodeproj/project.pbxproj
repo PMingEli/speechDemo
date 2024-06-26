@@ -14,9 +14,21 @@
 		A4B513092C2A9691009BE455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B513082C2A9691009BE455 /* Assets.xcassets */; };
 		A4B5130C2C2A9691009BE455 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A4B5130B2C2A9691009BE455 /* Base */; };
 		A4B5130F2C2A9691009BE455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5130E2C2A9691009BE455 /* main.m */; };
+		A4B513182C2A96E3009BE455 /* RecorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B513172C2A96E3009BE455 /* RecorderView.m */; };
+		A4B5131B2C2A98F3009BE455 /* SoundWavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5131A2C2A98F3009BE455 /* SoundWavesView.m */; };
+		A4B5131E2C2A9975009BE455 /* SoundWavesLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5131D2C2A9975009BE455 /* SoundWavesLine.m */; };
+		A4B513212C2A998E009BE455 /* Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B513202C2A998E009BE455 /* Recorder.m */; };
+		A4B513242C2A99AF009BE455 /* TouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B513232C2A99AF009BE455 /* TouchButton.m */; };
+		A4B513272C2A99DB009BE455 /* ControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B513262C2A99DB009BE455 /* ControlButton.m */; };
+		A4B5132A2C2A99F0009BE455 /* RecorderBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B513292C2A99F0009BE455 /* RecorderBackgroundView.m */; };
+		A4B5132D2C2AA0A9009BE455 /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5132B2C2AA0A9009BE455 /* UIAlertController+Blocks.m */; };
+		F8B214688394860FCBA6D6A4 /* Pods_speechDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A459CBFC11B8188127FF979 /* Pods_speechDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A459CBFC11B8188127FF979 /* Pods_speechDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speechDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1D6DA9B691E0D2C6F42CC8 /* Pods-speechDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speechDemo.debug.xcconfig"; path = "Target Support Files/Pods-speechDemo/Pods-speechDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		921D74D0DEB3CF66388E368A /* Pods-speechDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speechDemo.release.xcconfig"; path = "Target Support Files/Pods-speechDemo/Pods-speechDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A4B512F92C2A968F009BE455 /* speechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speechDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B512FC2C2A968F009BE455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4B512FD2C2A968F009BE455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +41,22 @@
 		A4B5130B2C2A9691009BE455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4B5130D2C2A9691009BE455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B5130E2C2A9691009BE455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4B513162C2A96E3009BE455 /* RecorderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecorderView.h; sourceTree = "<group>"; };
+		A4B513172C2A96E3009BE455 /* RecorderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecorderView.m; sourceTree = "<group>"; };
+		A4B513192C2A98F3009BE455 /* SoundWavesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundWavesView.h; sourceTree = "<group>"; };
+		A4B5131A2C2A98F3009BE455 /* SoundWavesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundWavesView.m; sourceTree = "<group>"; };
+		A4B5131C2C2A9975009BE455 /* SoundWavesLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundWavesLine.h; sourceTree = "<group>"; };
+		A4B5131D2C2A9975009BE455 /* SoundWavesLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundWavesLine.m; sourceTree = "<group>"; };
+		A4B5131F2C2A998E009BE455 /* Recorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
+		A4B513202C2A998E009BE455 /* Recorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recorder.m; sourceTree = "<group>"; };
+		A4B513222C2A99AF009BE455 /* TouchButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchButton.h; sourceTree = "<group>"; };
+		A4B513232C2A99AF009BE455 /* TouchButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchButton.m; sourceTree = "<group>"; };
+		A4B513252C2A99DB009BE455 /* ControlButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlButton.h; sourceTree = "<group>"; };
+		A4B513262C2A99DB009BE455 /* ControlButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlButton.m; sourceTree = "<group>"; };
+		A4B513282C2A99F0009BE455 /* RecorderBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecorderBackgroundView.h; sourceTree = "<group>"; };
+		A4B513292C2A99F0009BE455 /* RecorderBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecorderBackgroundView.m; sourceTree = "<group>"; };
+		A4B5132B2C2AA0A9009BE455 /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		A4B5132C2C2AA0A9009BE455 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +64,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B214688394860FCBA6D6A4 /* Pods_speechDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E822B6D7F39B13D353C4D0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D6DA9B691E0D2C6F42CC8 /* Pods-speechDemo.debug.xcconfig */,
+				921D74D0DEB3CF66388E368A /* Pods-speechDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A4B512F02C2A968F009BE455 = {
 			isa = PBXGroup;
 			children = (
 				A4B512FB2C2A968F009BE455 /* speechDemo */,
 				A4B512FA2C2A968F009BE455 /* Products */,
+				6E822B6D7F39B13D353C4D0B /* Pods */,
+				B9A00681C2BB5E2B54F6D6D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +101,7 @@
 		A4B512FB2C2A968F009BE455 /* speechDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A4B513152C2A96B5009BE455 /* RecorderView */,
 				A4B512FC2C2A968F009BE455 /* AppDelegate.h */,
 				A4B512FD2C2A968F009BE455 /* AppDelegate.m */,
 				A4B512FF2C2A968F009BE455 /* SceneDelegate.h */,
@@ -76,6 +117,37 @@
 			path = speechDemo;
 			sourceTree = "<group>";
 		};
+		A4B513152C2A96B5009BE455 /* RecorderView */ = {
+			isa = PBXGroup;
+			children = (
+				A4B5132C2C2AA0A9009BE455 /* UIAlertController+Blocks.h */,
+				A4B5132B2C2AA0A9009BE455 /* UIAlertController+Blocks.m */,
+				A4B513162C2A96E3009BE455 /* RecorderView.h */,
+				A4B513172C2A96E3009BE455 /* RecorderView.m */,
+				A4B513192C2A98F3009BE455 /* SoundWavesView.h */,
+				A4B5131A2C2A98F3009BE455 /* SoundWavesView.m */,
+				A4B5131C2C2A9975009BE455 /* SoundWavesLine.h */,
+				A4B5131D2C2A9975009BE455 /* SoundWavesLine.m */,
+				A4B5131F2C2A998E009BE455 /* Recorder.h */,
+				A4B513202C2A998E009BE455 /* Recorder.m */,
+				A4B513222C2A99AF009BE455 /* TouchButton.h */,
+				A4B513232C2A99AF009BE455 /* TouchButton.m */,
+				A4B513252C2A99DB009BE455 /* ControlButton.h */,
+				A4B513262C2A99DB009BE455 /* ControlButton.m */,
+				A4B513282C2A99F0009BE455 /* RecorderBackgroundView.h */,
+				A4B513292C2A99F0009BE455 /* RecorderBackgroundView.m */,
+			);
+			path = RecorderView;
+			sourceTree = "<group>";
+		};
+		B9A00681C2BB5E2B54F6D6D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A459CBFC11B8188127FF979 /* Pods_speechDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4B513122C2A9691009BE455 /* Build configuration list for PBXNativeTarget "speechDemo" */;
 			buildPhases = (
+				5B55DB5576031571DA92579D /* [CP] Check Pods Manifest.lock */,
 				A4B512F52C2A968F009BE455 /* Sources */,
 				A4B512F62C2A968F009BE455 /* Frameworks */,
 				A4B512F72C2A968F009BE455 /* Resources */,
+				2270C66F6AEAF23EF951A194 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,13 +215,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2270C66F6AEAF23EF951A194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speechDemo/Pods-speechDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speechDemo/Pods-speechDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-speechDemo/Pods-speechDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B55DB5576031571DA92579D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speechDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4B512F52C2A968F009BE455 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B513182C2A96E3009BE455 /* RecorderView.m in Sources */,
+				A4B513272C2A99DB009BE455 /* ControlButton.m in Sources */,
+				A4B5132A2C2A99F0009BE455 /* RecorderBackgroundView.m in Sources */,
 				A4B513042C2A968F009BE455 /* ViewController.m in Sources */,
 				A4B512FE2C2A968F009BE455 /* AppDelegate.m in Sources */,
+				A4B513212C2A998E009BE455 /* Recorder.m in Sources */,
+				A4B5131E2C2A9975009BE455 /* SoundWavesLine.m in Sources */,
+				A4B5131B2C2A98F3009BE455 /* SoundWavesView.m in Sources */,
+				A4B5132D2C2AA0A9009BE455 /* UIAlertController+Blocks.m in Sources */,
+				A4B513242C2A99AF009BE455 /* TouchButton.m in Sources */,
 				A4B5130F2C2A9691009BE455 /* main.m in Sources */,
 				A4B513012C2A968F009BE455 /* SceneDelegate.m in Sources */,
 			);
@@ -293,12 +417,14 @@
 		};
 		A4B513132C2A9691009BE455 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1D6DA9B691E0D2C6F42CC8 /* Pods-speechDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PC8ALQ6DAN;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = speechDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -306,6 +432,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,12 +447,14 @@
 		};
 		A4B513142C2A9691009BE455 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921D74D0DEB3CF66388E368A /* Pods-speechDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PC8ALQ6DAN;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = speechDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,6 +462,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
