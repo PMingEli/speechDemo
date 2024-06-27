@@ -61,6 +61,14 @@
     NSAssert(inputNode, @"录入设备没有准备好");
     NSAssert(_recognitionRequest, @"请求初始化失败");
     _recognitionRequest.shouldReportPartialResults = YES;
+    if (@available(iOS 13.0, *)) {
+        // 本地识别
+        _recognitionRequest.requiresOnDeviceRecognition = YES;
+        if (@available(iOS 16.0, *)) {
+            // 自动加上标点符号
+            _recognitionRequest.addsPunctuation = YES;
+        }
+    }
     __weak typeof(self) weakSelf = self;
     _recognitionTask = [self.speechRecognizer recognitionTaskWithRequest:_recognitionRequest resultHandler:^(SFSpeechRecognitionResult * _Nullable result, NSError * _Nullable error) {
         __strong typeof(weakSelf) strongSelf = weakSelf;
